@@ -6,3 +6,5 @@ Poin Utama:
 Proyek latihan menerjemahkan desain Figma ke HTML dan CSS.
 Fokus pada belajar membuat layout responsif.
 Bagian dari perjalanan meningkatkan keterampilan frontend.
+
+![Img 1](asset/thumbnail.png)
