@@ -100,6 +100,7 @@ ul li a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 30px 100px;
+  height: 100vh;
 }
 
 .content-text {
@@ -157,7 +158,6 @@ p {
 .client {
   padding: 30px 100px;
   text-align: center;
-  margin: 40px 0;
   background-color: #fff;
 }
 
@@ -212,5 +212,80 @@ h2 {
 
 /* CLIENT*/
 
+/* MANAGE */
+.manage {
+  padding: 30px 100px;
+  text-align: center;
+  padding-top: 40px;
+  background-color: #fff;
+}
+.manage .card-master {
+  margin-top: 16px;
+  display: flex;
+  gap: 127px;
+  align-items: center;
+}
 
+.manage .card-master .card {
+  padding: 32px 24px;
+  border-radius: 10px;
+  background-color: #f5f7fa;
+  flex: 1 1 calc(33.333% - 40px);
+  max-width: 300px;
+}
 
+.manage .card-master .card h6 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+.manage .card-master .card img {
+  max-width: 56px;
+  max-height: 65px;
+}
+
+@media (max-width: 768px) {
+  .manage {
+    padding: 30px 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .manage .card-master {
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .manage .card-master .card {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .manage {
+    padding: 20px 15px;
+  }
+
+  .manage h2 {
+    font-size: 1.5rem;
+  }
+
+  .manage .card-master .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .manage .card-master .card img {
+    max-width: 48px;
+    max-height: 56px;
+  }
+}
+/* MANAGE */
