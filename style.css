@@ -35,7 +35,7 @@ nav {
 
 .logo .text-logo {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 ul {
@@ -109,16 +109,16 @@ ul li a:hover {
 
 h1 {
   font-size: 3rem;
-  color: #333; /* Adjusts the heading color */
+  color: #333;
 }
 
 h1 span {
-  color: #4caf50; /* Green color for "from 8 years" */
+  color: #4caf50;
 }
 
 p {
   font-size: 0.8rem;
-  color: #666; /* Adjusts the paragraph text color */
+  color: #666;
 }
 
 .image {
@@ -139,6 +139,7 @@ p {
     flex-direction: column;
     text-align: center;
     padding: 30px 20px;
+    height: auto;
   }
 
   .content-text {
@@ -148,7 +149,7 @@ p {
   .image {
     width: 80%;
     height: 200px;
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
 
@@ -249,6 +250,9 @@ h2 {
   .manage {
     padding: 30px 20px;
   }
+  h1 {
+    font-size: 2.5rem;
+  }
 
   h2 {
     font-size: 1.5rem;
@@ -289,3 +293,132 @@ h2 {
   }
 }
 /* MANAGE */
+
+/* Pixelgrade */
+
+.pixelgrade {
+  padding: 30px 100px;
+  background-color: #fff;
+}
+.bungkus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.pixelgrade .image img {
+  max-height: 328px;
+  max-width: 441px;
+}
+.pixelgrade .content-text p {
+  margin-bottom: 30px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .bungkus {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pixelgrade .bungkus .image {
+    margin-bottom: 120px;
+  }
+  .pixelgrade .content-text {
+    text-align: center;
+  }
+}
+/* Pixelgrade */
+
+/* .reinvent-section */
+.reinvent-section {
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reinvent-section .left span {
+  color: #4caf4f;
+}
+
+.reinvent-section .right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.reinvent-section .right .card {
+  display: flex;
+  align-items: center;
+}
+
+.reinvent-section .right .card img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.reinvent-section .right .card .title h6 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.reinvent-section .right .card .title p {
+  font-size: 16px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .reinvent-section {
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .reinvent-section .left h2 {
+    font-size: 30px;
+  }
+
+  .reinvent-section .right {
+    width: 100%;
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+}
+/* .reinvent-section */
+
+/* Pixelgrade */
+
+.howto {
+  padding: 30px 100px;
+  background-color: #fff;
+}
+.bungkus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.howto .image img {
+  max-height: 328px;
+  max-width: 441px;
+}
+.howto .content-text p {
+  margin-bottom: 30px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .bungkus {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .howto .bungkus .image {
+    margin-bottom: 120px;
+  }
+  .howto .content-text {
+    text-align: center;
+  }
+}
+/* Pixelgrade */
